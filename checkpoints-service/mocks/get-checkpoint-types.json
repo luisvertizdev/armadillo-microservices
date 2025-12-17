@@ -1,0 +1,29 @@
+{
+    "message": "string",
+    "resultSet": [
+         {
+              "value": "ORIGIN_DEPARTURE",
+              "label": "Partida de origen"
+          },
+	  {
+              "value": "WAYPOINT_ARRIVAL",
+              "label": "Arribo al punto"
+          },
+	  {	
+              "value": "CHECK_IN",
+              "label": "Ingreso"
+          },
+	  {	
+              "value": "SERVICE_START",
+              "label": "Inicio de la atencion"
+          },
+	  {
+              "value": "SERVICE_END",
+              "label": "Fin de la atencion"
+          },
+	  {
+              "value": "WAYPOINT_DEPARTURE",
+              "label": "Partida"
+          }
+    ]		
+}

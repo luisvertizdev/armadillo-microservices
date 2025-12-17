@@ -1,0 +1,55 @@
+version: "3.9"
+
+services:
+  gateway-service:
+    build: ./gateway
+    image: armadillo/gateway:latest
+    ports:
+      - "3000:3000"
+    environment:
+      JWT_SECRET: dev-secret
+
+    restart: unless-stopped
+
+    depends_on:
+      - checkpoints-service
+      - implements-service
+      - incidents-service
+      - opts-service
+      - workers-service
+
+  checkpoints-service:
+    build: ./checkpoints-service
+    image: armadillo/checkpoints
+    expose:
+      - "3002:3002"    
+    restart: unless-stopped  
+
+  implements-service:
+    build: ./implements-service
+    image: armadillo/implements
+    expose:
+      - "3003:3003"
+    restart: unless-stopped  
+
+  incidents-service:
+    build: ./incidents-service
+    image: armadillo/incidents
+    expose:
+      - "3004:3004"    
+    restart: unless-stopped  
+
+  opts-service:
+    build: ./opts-service
+    image: armadillo/opts
+    expose:
+      - "3005:3005"
+    restart: unless-stopped  
+
+  workers-service:
+    build: ./workers-service
+    image: armadillo/workers
+    expose:
+      - "3006:3006"    
+    restart: unless-stopped  
+

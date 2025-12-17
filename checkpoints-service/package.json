@@ -1,0 +1,13 @@
+{
+  "name": "checkpoints-service",
+  "version": "1.0.0",
+  "description": "Microservice of checkpoints",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.0"
+  }
+}

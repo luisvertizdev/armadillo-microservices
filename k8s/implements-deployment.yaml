@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: implements
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: implements
+  template:
+    metadata:
+      labels:
+        app: implements
+    spec:
+      containers:
+        - name: implements
+          image: armadillo/implements:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3003
+          env:
+            - name: PORT
+              value: "3003"

@@ -1,0 +1,22 @@
+{
+  "message": "string",
+  "resultSet": {
+    "uploadedFiles": [
+      {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "s3Key": "string",
+        "originalFilename": "string",
+        "contentType": "string",
+        "sizeKb": 9007199254740991,
+        "uploadedAt": "2025-12-06T21:57:00.271Z",
+        "accessPolicy": "PRIVATE"
+      }
+    ],
+    "uploadErrors": [
+      {
+        "filename": "string",
+        "reason": "string"
+      }
+    ]
+  }
+}

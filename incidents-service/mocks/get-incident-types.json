@@ -1,0 +1,21 @@
+{
+    "message": "string",
+    "resultSet": [
+         {
+              "value": "Cliente no responde",
+              "label": "11111"
+          },
+	  {
+              "value": "Direccion erronea",
+              "label": "22222"
+          },
+	  {	
+              "value": "Dano de la carga",
+              "label": "33333"
+          },
+	  {	
+              "value": "Problemas mecanicos",
+              "label": "44444"
+          }
+    ]		
+}

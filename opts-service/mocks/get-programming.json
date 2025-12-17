@@ -1,0 +1,27 @@
+{
+  "message": "string",
+  "resultSet": [
+    {
+      "date": "2025-09-09",
+      "opts": [
+        {
+          "code": "O250530-001",
+          "startTime": "2025-09-09T12:38:19.559Z",
+          "endTime": "2025-09-09T14:38:19.559Z",
+          "location": "Lima - Lima",
+          "status": "IN_PROGRESS"
+        },
+	{
+          "code": "O250530-001",
+          "startTime": "2025-09-09T16:38:19.559Z",
+          "endTime": "2025-09-09T18:58:19.559Z",
+          "location": "Lima - Lima",
+          "status": "IN_PROGRESS"
+        }
+      ]
+    },
+ {
+      "date": "2025-09-10"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opts
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: opts
+  template:
+    metadata:
+      labels:
+        app: opts
+    spec:
+      containers:
+        - name: opts
+          image: armadillo/opts:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3004
+          env:
+            - name: PORT
+              value: "3004"

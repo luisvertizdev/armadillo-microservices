@@ -1,0 +1,16 @@
+CORRER TODOS LOS MICROSERVICIOS
+comando: npm run start:all
+luisvertiz@MacBook-Pro-de-Luis armadillo-microservices % npm run start:all
+
+Características de los sistemas distribuidos
+- 
+
+
+CONSTRUIR LAS IMAGENES DE DOCKER DE CADA MICROSERVICIO
+comandos:
+docker build -t armadillo/incidents ./incidents-service
+docker build -t armadillo/workers ./workers-service
+docker build -t armadillo/checkpoints ./checkpoints-service
+docker build -t armadillo/implements ./implements-service
+docker build -t armadillo/opts ./opts-service
+docker build -t armadillo/gateway .

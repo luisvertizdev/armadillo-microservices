@@ -1,0 +1,13 @@
+{
+  "message": "string",
+  "resultSet": [
+    {
+      "value": "EPP",
+      "label": "EPPs"
+    },
+{
+      "value": "OTHER",
+      "label": "Otros implementos"
+    }
+  ]
+}

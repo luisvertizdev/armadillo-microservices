@@ -1,0 +1,52 @@
+{
+  "message": "string",
+  "resultSet": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "createdAt": "2025-06-29T00:02:12.203Z",
+    "updatedAt": "2025-06-29T00:02:12.203Z",
+    "sequenceOrder": 1073741824,
+    "status": "IN_PROGRESS",
+    "hasIncidents": true,
+    "startTime": "2025-06-29T00:02:12.203Z",
+    "endTime": "2025-06-29T00:02:12.203Z",
+    "location": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "createdAt": "2025-06-29T00:02:12.203Z",
+      "updatedAt": "2025-06-29T00:02:12.203Z",
+      "name": "Inversiones Apol",
+      "address": "Calle Las Margaritas 333",
+      "latitude": 0,
+      "longitude": 0,
+      "type": "PICKUP",
+      "index": 1073741824,
+      "cargoName": "string",
+      "cargoType": "Electronicos",
+      "cargoQuantity": 1073741824,
+      "cargoWeight": 0.1,
+      "cargoVolume": 0.1
+    },
+    "vehicle": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "createdAt": "2025-06-29T00:02:12.203Z",
+      "updatedAt": "2025-06-29T00:02:12.203Z",
+      "licensePlate": "AVR-124",
+      "brand": "string",
+      "model": "string",
+      "type": "TRUCK",
+      "mileage": 9007199254740991,
+      "capacityKg": 0.1,
+      "volumeM3": 0.1,
+      "photoUrl": "string",
+      "status": "AVAILABLE"
+    },
+    "checkpoints": [
+      {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "type": "ORIGIN_DEPARTURE",
+        "status": "PENDING",
+        "startTime": "",
+        "endTime": ""
+      }
+    ]
+  }
+}

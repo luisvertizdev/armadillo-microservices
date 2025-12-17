@@ -1,0 +1,20 @@
+{
+  "name": "armadillo-microservices",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:checkpoints": "cd checkpoints-service && npm start",
+    "start:implements": "cd implements-service && npm start",
+    "start:incidents": "cd incidents-service && npm start",
+    "start:opts": "cd opts-service && npm start",
+    "start:workers": "cd workers-service && npm start",
+    "start:gateway": "cd gateway && npm start",
+    "start:all": "concurrently \"npm run start:checkpoints\" \"npm run start:implements\" \"npm run start:incidents\" \"npm run start:opts\" \"npm run start:workers\" \"npm run start:gateway\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  }
+}

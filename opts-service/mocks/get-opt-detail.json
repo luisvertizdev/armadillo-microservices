@@ -1,0 +1,135 @@
+{
+  "message": "string",
+  "resultSet": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "createdAt": "2025-09-11T19:40:40.485Z",
+    "updatedAt": "2025-09-11T19:40:40.485Z",
+    "code": "O250530-001",
+    "status": "IN_PROGRESS",
+    "startTime": "2025-09-11T19:40:40.485Z",
+    "endTime": "2025-09-11T19:40:40.485Z",
+    "vehicleAssignments": [
+      {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "createdAt": "2025-09-11T19:40:40.485Z",
+        "updatedAt": "2025-09-11T19:40:40.485Z",
+        "vehicle": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "createdAt": "2025-09-11T19:40:40.485Z",
+          "updatedAt": "2025-09-11T19:40:40.485Z",
+          "licensePlate": "AVR-124",
+          "brand": "string",
+          "model": "string",
+          "mileage": 9007199254740991,
+          "year": 1073741824,
+          "photoUrl": "string",
+          "status": "AVAILABLE",
+          "category": {
+            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": "2025-09-11T19:40:40.485Z",
+            "updatedAt": "2025-09-11T19:40:40.485Z",
+            "name": "string",
+            "code": "string",
+            "maxVolumeM3": 0.1,
+            "maxWeightTons": 0.1,
+            "maxPallets": 1073741824,
+            "hierarchyLevel": 1073741824
+          },
+          "isImo": true,
+          "hasRefrigeration": true,
+          "capacityKg": 1073741824,
+          "volumeM3": 0.1,
+          "maxPallets": 1073741824
+        },
+        "workers": [
+          {
+            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": "2025-09-11T19:40:40.485Z",
+            "updatedAt": "2025-09-11T19:40:40.485Z",
+            "account": {
+              "id": "string",
+              "username": "string",
+              "firstName": "Luis",
+              "lastName": "Vertiz",
+              "email": "string",
+              "picture": "string",
+              "phoneNumber": "string",
+              "emailVerified": true,
+              "enabled": true,
+              "createdTimestamp": "2025-09-11T19:40:40.485Z"
+            },
+            "dni": "string",
+            "role": "OPERATOR"
+          },
+	{
+            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": "2025-09-11T19:40:40.485Z",
+            "updatedAt": "2025-09-11T19:40:40.485Z",
+            "account": {
+              "id": "string",
+              "username": "string",
+              "firstName": "Cesar",
+              "lastName": "Velez",
+              "email": "string",
+              "picture": "string",
+              "phoneNumber": "string",
+              "emailVerified": true,
+              "enabled": true,
+              "createdTimestamp": "2025-09-11T19:40:40.485Z"
+            },
+            "dni": "string",
+            "role": "COOPERATOR"
+          }
+        ]
+      }
+    ],
+    "routeStops": [
+      {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "createdAt": "2025-09-11T19:40:40.486Z",
+        "updatedAt": "2025-09-11T19:40:40.486Z",
+        "sequenceOrder": 1073741824,
+        "status": "IN_PROGRESS",
+        "startTime": "2025-09-11T19:40:40.486Z",
+        "endTime": "2025-09-11T19:40:40.486Z",
+        "cargoName": "string",
+        "cargoType": "string",
+        "cargoQuantity": 1073741824,
+        "cargoWeight": 0.1,
+        "cargoVolume": 0.1,
+        "ortId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "locationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "vehicleAssignmentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "hasIncidents": true,
+        "vehicle": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "createdAt": "2025-09-11T19:40:40.486Z",
+          "updatedAt": "2025-09-11T19:40:40.486Z",
+          "licensePlate": "string",
+          "brand": "string",
+          "model": "string",
+          "mileage": 9007199254740991,
+          "year": 1073741824,
+          "photoUrl": "string",
+          "status": "AVAILABLE",
+          "category": {
+            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": "2025-09-11T19:40:40.486Z",
+            "updatedAt": "2025-09-11T19:40:40.486Z",
+            "name": "string",
+            "code": "string",
+            "maxVolumeM3": 0.1,
+            "maxWeightTons": 0.1,
+            "maxPallets": 1073741824,
+            "hierarchyLevel": 1073741824
+          },
+          "isImo": true,
+          "hasRefrigeration": true,
+          "capacityKg": 1073741824,
+          "volumeM3": 0.1,
+          "maxPallets": 1073741824
+        }
+      }
+    ]
+  }
+}

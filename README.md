@@ -105,12 +105,3 @@ armadillo-microservices/
 
 ---
 
-## Ejecución con Docker Compose
-
-### Requisitos
-
-* Docker
-* Docker Compose
-* Node.js (solo para desarrollo local)
-
-### 2️⃣ Clonar el reposi
